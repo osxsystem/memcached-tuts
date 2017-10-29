@@ -30,7 +30,7 @@ $cacheAvailable = $memcache->addServers($servers);
 // We have escaped every risky char with mysql_real_escape_string()
 // Now we want to write them to our database :
 $id = 29;
-$name = 'iphone 11s';
+$name = 'name....';
 $description = 'new iphone 7 32Gb, and more...';
 $price = 660.00;
 $sql = "INSERT INTO products (id, name, description, price) VALUES (
